@@ -1,0 +1,105 @@
+body
+{
+  /*  height: auto;*/
+  margin: 0px;
+}
+#mainwrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstwrapper
+{
+   width: 32%;
+   background-color:white;
+   height: 795px;
+}
+.secondwrapper
+{
+   width: 68%;
+   /*background-color: chocolate;*/
+   height: 795px;
+   background-image: url(dinningroom.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.image
+{
+    color: #013220;
+    width: 80px;
+    position: relative;
+    top: 60px;
+    left: 80px;
+}
+h1{
+    color: #013220;
+}
+
+button{
+    background-color: #013220;
+    width: 130px;
+    height: 50px;
+}
+.text_design
+{
+position: relative;
+top: 180px;
+left: 100px;
+}
+button, a
+{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #d7dcda;
+}
+.p_design
+{
+    color: #4c4c4c;
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+li
+{
+    margin: 2%;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 27px;
+}
+.thirdwrapper
+{
+    background-color:white;
+    height: 250px;
+    width: 790px;
+    position:absolute;
+    top: 546px;
+    left:650px;
+}
+.dinningtext
+{
+    margin: 60px;
+}
+.txt1
+{
+   text-transform: capitalize; 
+   color:#013220;
+}
+.txt
+{
+   text-transform: capitalize; 
+   color:#aaa;
+}
+li:hover
+{
+    margin: 2%;
+    text-transform: capitalize;
+    color: #013220;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 27px;
+}
